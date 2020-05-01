@@ -21,11 +21,11 @@ from pptx import Presentation
 import glob
 
 
-search_str = 'Purdue'
+
 ppt = Presentation('EARTHRISE_ONE_SHEET_2.24.pptx')
 
 
-li = []
+
 
 for slide in ppt.slides:
     for shape in slide.shapes:
